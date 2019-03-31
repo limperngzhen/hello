@@ -1,0 +1,33 @@
+{
+			"name": "gulp-sass",
+			"version": "1.0.0",
+			"description": "Gulp Sass Sample",
+			"main": "index.js",
+			"license": "MIT",
+			"devDependencies": {
+						"bootstrap": "4.3.1",
+						"del": "^4.0.0",
+						"gulp": "^4.0.0",
+						"gulp-clean-css": "^2.6.1",
+						"gulp-connect": "^5.7.0",
+						"gulp-imagemin": "^5.0.3",
+						"gulp-material-icons": "^1.0.4",
+						"gulp-rename": "^1.4.0",
+						"gulp-sass": "^4.0.2",
+						"gulp-uglify": "^3.0.2",
+						"gulp.spritesmith": "^6.9.0",
+						"material-design-icons-iconfont": "^4.0.5"
+			},
+			"babel": {
+						"plugins": [
+									"transform-runtime"
+						],
+						"presets": [
+									"es2015",
+									"stage-0"
+						]
+			},
+			"dependencies": {
+						"gulp-concat": "^2.6.1"
+			}
+}
